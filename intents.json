@@ -1,0 +1,42 @@
+{"intents":[
+    {"tag" : "greetings",
+    "patterns": ["Hi", "Hello", "What's good", "What's up", "Hey", "Good Morning", "Good Evening", "Good Afternoon", "Yo", "Howdy", "Greetings", "Hi there", "Hey there", "What's going on", "Good day"],
+    "responses" : ["Yo", "Hi"] 
+},
+    {"tag" : "plot_chart",
+    "patterns": ["Plot a coin", "Give me a chart for a coin", "Plot me a chart", "Give me a chart", "Show me a coin chart", "I need a chart for this coin", "Can you plot this coin", "Chart this coin", "Give me a price chart"],
+    "responses" : ["Generating Chart"]
+},
+    {"tag" : "add_coin",
+    "patterns": ["Add a coin to my wallet", "Include this coin", "Insert a coin", "Add this coin to my portfolio", "Add this token to my wallet", "Attach a new coin", "Include this in my assets", "Add this crypto", "Add this currency"],
+    "responses" : ["Sure", "Of Course"]
+
+},
+    {"tag" : "remove_coin",
+    "patterns": ["Remove a coin from my wallet", "Delete this coin", "Take out this coin","Remove this token from my portfolio", "Detach this coin", "Exclude this from my assets", "Remove this crypto", "Delete this currency"],
+    "responses" : ["Sure", "Of Course"]
+},
+    {"tag" : "show_wallet",
+    "patterns": ["Show me my coins", "Show me my investments", "How is my wallet doing", "Display my wallet", "Show my wallet", "Let me see my coins", "How are my coins", "View my investments"],
+    "responses" : ["Showing Wallet"]
+},
+    {"tag" : "coin_price",
+    "patterns": ["I want to know the price of a coin", "Show me the price of a coin", "Show me how much this coin is", "What's the price of this coin", "How much is this coin", "Coin price check", "Check the price of this coin", "Price of this coin"],
+    "responses" : ["Of Course"]
+
+},
+    {"tag" : "wallet_worth",
+    "patterns": ["How much is this wallet worth", "What is the value of this wallet", "How much is in this wallet", "What’s the wallet value", "Show wallet worth", "Wallet balance check", "Check my wallet worth", "Wallet value"],
+    "responses" : ["Displaying Value"]
+},
+    {"tag" : "wallet_gains",
+    "patterns": ["How is my wallet doing", "How is my wallet performing", "How much money have I made", "Am I making money", "Show my wallet gains", "Wallet performance check", "Check my wallet gains", "Wallet gains"],
+    "responses" : ["Displaying Gains/Losses"]
+
+},
+    {"tag" : "bye",
+    "patterns": ["Bye", "Goodbye", "Stop", "I have to go", "End", "Finish", "See you", "Later", "Catch you later", "I'm out"],
+    "responses" : ["Bye"]
+
+}
+]}

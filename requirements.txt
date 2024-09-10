@@ -1,0 +1,9 @@
+langchain
+langchain_community
+streamlit
+neuralintents
+matplotlib
+pandas
+pandas-datareader
+mplfinance
+yfinance
